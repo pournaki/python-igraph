@@ -230,7 +230,7 @@ class IgraphCCoreCMakeBuilder(IgraphCCoreBuilder):
         """
         global is_windows
 
-        cmake = which("cmake")
+        cmake = which("cmake3")
         if not cmake:
             print(
                 "igraph uses CMake as the build system. You need to install CMake "
